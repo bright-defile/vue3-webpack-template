@@ -1,5 +1,3 @@
-// const { warn } = require('@vue/runtime-core');
-
 module.exports = {
   env: {
     browser: true,
@@ -9,7 +7,7 @@ module.exports = {
     //vue
     // "plugin:vue/vue3-essential", //lv1
     'plugin:vue/vue3-strongly-recommended', //lv2
-    // "plugin:vue/vue3-recommended",//lv3
+    // 'plugin:vue/vue3-recommended', //lv3
     //js
     'eslint:recommended',
     'plugin:prettier/recommended',
@@ -18,6 +16,7 @@ module.exports = {
     parser: 'babel-eslint',
   },
   rules: {
+    'no-var': 2,
     'vue/html-closing-bracket-newline': [
       'error',
       {
