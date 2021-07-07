@@ -1,19 +1,19 @@
 <template>
-  <h1>{{ message }}</h1>
-  <HelloWorld />
+  <h1>{{ count }}</h1>
 </template>
 
 <script>
-import HelloWorld from '~/components/HelloWorld'
 export default {
-  components: {
-    HelloWorld
-  },
   data() {
     return {
-      message:'Hello Vue!!!'
-    }
-  }
+      count: 0,
+    };
+  },
 };
-
 </script>
+<style>
+h1 {
+  font-size: 50px;
+  color: salmon;
+}
+</style>
