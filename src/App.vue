@@ -1,19 +1,7 @@
-<template>
-  <h1>{{ count }}</h1>
-</template>
+<template></template>
 
 <script>
-export default {
-  data() {
-    return {
-      count: 0,
-    };
-  },
-};
+export default {};
 </script>
-<style>
-h1 {
-  font-size: 50px;
-  color: salmon;
-}
-</style>
+
+<style></style>
